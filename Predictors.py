@@ -14,7 +14,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 from sklearn.model_selection import GridSearchCV
-from TechnicalIndicators import TechnicalIndicators
+#from TechnicalIndicators import TechnicalIndicators
 from sklearn.pipeline import Pipeline
 from sklearn.feature_selection import SelectKBest
 from sklearn.feature_selection import f_regression
@@ -116,4 +116,3 @@ class Model():
         print('\nClassifier with best test set accuracy: {}'.format(self.BEST_CLASSIFIER))
         
         return self.BEST_GRIDSEARCH
-            
